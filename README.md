@@ -1,0 +1,2 @@
+# tareajuan
+practica invstigacion
