@@ -959,6 +959,7 @@ display: none;
 <li><a href="#introduccion" id="toc-introduccion">introduccion</a></li>
 <li><a href="#definiciones" id="toc-definiciones">definiciones</a></li>
 <li><a href="#teoremas" id="toc-teoremas">teoremas</a></li>
+<li><a href="#conclucion" id="toc-conclucion">conclucion</a></li>
 </ul>
 </div>
 </nav>
@@ -972,21 +973,121 @@ display: none;
 <div class="col-xs-10">
 <div id="introduccion" class="section level1">
 <h1>introduccion</h1>
+<p>La probabilidad es un concepto de matemáticas que mide las
+posibilidades de que ocurra un resultado. Estas posibilidades se
+obtienen a partir de la relación (división) entre el número de casos
+favorables y el total de casos posibles. Por ejemplo, al lanzar una
+moneda y apostar por “cruz”. En este caso, tenemos un caso favorable, es
+decir, la posibilidad de ocurrir es de UNO entre DOS posibilidades (cara
+o cruz). Así, la probabilidad de que el resultado sea “cruz” es de ½ (1
+dividido entre 2), la mitad o el 50%. En otras palabras, la probabilidad
+es una subdivisión de las matemáticas que calcula las posibilidades de
+ocurrencia de experimentos. Con el fin de universalizar este
+conocimiento, abordaremos en este artículo la comprensión de este
+concepto en sus detalles</p>
 </div>
 <div id="definiciones" class="section level1">
 <h1>definiciones</h1>
-<div id="fenomeno-aleatorio" class="section level2">
-<h2>fenomeno aleatorio</h2>
-</div>
+<p>Luego de realizar una pequeña síntesis relativa a los cinco
+principales significados de probabilidad se evidencia la dificultad que
+existe en lo concerniente a la definición de esta. Se asocia a
+eventualidades producto de la casualidad, lo fortuito e incluso lo
+inesperado para establecer estimaciones, predicciones y/o marcar
+tendencia. Desde este punto de vista, surgen al escenario conceptos de
+azar, aleatoriedad los cuales, a su vez, presentan dificultades en su
+definición. De manera que, saltando el posible paralelismo histórico, se
+está en presencia una situación similar a la de los griegos al
+desarrollar una estructura teórica (la geometría euclidiana) a partir de
+conceptos no definidos como punto, recta, plano (conceptos que a la
+larga recibieron el nombre de primitivos por no haberse podido
+definir)</p>
+<p>Se debe tener en cuenta, que en la matemática a pesar de su aparente
+perfección teórica ha tenido históricamente baches epistemológicos que
+han conducido a una nueva reformulación de sus fundamentos. Por ello, la
+definición de probabilidad no escapa a estos hechos que llevan a
+replantear la progenie de sus conceptos. En consecuencia, en estas
+reflexiones se considerará a la probabilidad como la disciplina
+encargada de estudiar los conceptos matemáticos que permite dar
+predicciones a partir de tendencias producidas por eventos que le
+anteceden. ## fenomeno aleatorio En estadística, un fenómeno aleatorio
+es aquel que bajo el mismo conjunto aparente de condiciones iniciales,
+puede presentar resultados diferentes, es decir, no se puede predecir el
+resultado exacto de cada experiencia particular. (Ej: Lanzamiento de un
+dado). Este tipo de fenómeno es opuesto al fenómeno determinista, en el
+que conocer todos los factores de un experimento nos hace predecir
+exactamente el resultado del mismo. Por ejemplo, conociendo la altura
+desde la que se arroja un móvil es posible saber exactamente el tiempo
+que tardará en llegar al suelo en condiciones de vacío. Un experimento
+se dice aleatorio si verifica las siguientes condiciones: Es posible
+conocer previamente todos los posibles resultados asociados al
+experimento (el espacio muestral, constituido por diferentes sucesos).
+Es imposible predecir el resultado exacto del mismo antes de
+realizarlo</p>
 <div id="espacio-muestral" class="section level2">
 <h2>espacio muestral</h2>
+<p>Consiste en el conjunto compuesto por todos los puntos muestrales en
+un experimento aleatorio. Es decir, todos los resultados posibles. Así,
+en un experimento aleatorio, aunque no sea predecible, el resultado
+siempre estará contenido dentro de su espacio muestral. En otras
+palabras, se considera el espacio muestral como el conjunto de todos los
+resultados posibles. Para esto utilizamos una notación muy cercana a la
+teoría de los conjuntos de la matemática. Así, el espacio muestral del
+lanzamiento de un dado se representa por el conjunto alpha, donde el
+conjunto es igual:</p>
+<p>alpha = [1, 2, 3, 4, 5, 6]</p>
+<p>Otra notación ampliamente utilizada para la representación de
+conjuntos es el diagrama de Venn. El número de elementos de un espacio
+muestral, en el caso de nuestro ejemplo, es dado por n(alpha) = 6, donde
+cada elemento es un punto muestral.</p>
 </div>
 <div id="evento" class="section level2">
 <h2>evento</h2>
+<p>los eventos se consideran como subconjuntos de un espacio muestral.
+Por lo tanto, pueden contener desde cero hasta todos los resultados
+posibles en el caso de un experimento aleatorio. De esta manera, puede
+ser tanto un conjunto vacío como el espacio muestral completo. Por otro
+lado, cuando contiene cero resultados posibles, se le llama evento
+imposible. Así, para el caso de todos los eventos posibles, se denomina
+evento seguro.</p>
+<p>Vamos a hacer más práctico este conocimiento a través de ejemplos.
+Considerando el experimento de lanzar un dado, tenemos los siguientes
+eventos:</p>
+<p>Salió un número primo A = [2,3,5] y n (A) = 3 Resultó en un número
+par B = [2,4,6] y n (B) = 3 Sacar un número mayor que tres C = [4,5,6] y
+n (c) = 3 Sacar un número divisible por tres D = [3,6] y n (D) = 2</p>
 </div>
 </div>
 <div id="teoremas" class="section level1">
 <h1>teoremas</h1>
+<p>Regla de la adición La regla de la adición o regla de la suma
+establece que la probabilidad de ocurrencia de cualquier evento en
+particular es igual a la suma de las probabilidades individuales, si es
+que los eventos son mutuamente excluyentes, es decir, que dos no pueden
+ocurrir al mismo tiempo. Por un lado, si</p>
+<p>La regla de la multiplicación establece que la probabilidad de
+ocurrencia de dos o más eventos estadísticamente independientes es igual
+al producto de sus probabilidades individuales.</p>
+<p>El teorema de Bayes, en la teoría de la probabilidad, es una
+proposición planteada por el matemático inglés Thomas Bayes
+(1702-1761)[1]​ y publicada póstumamente en 1763,[2]​ que expresa la
+probabilidad condicional de un evento aleatorio</p>
+<p>Es decir, por ejemplo, que sabiendo la probabilidad de tener un dolor
+de cabeza dado que se tiene gripe, se podría saber (si se tiene algún
+dato más), la probabilidad de tener gripe si se tiene un dolor de
+cabeza. Muestra este sencillo ejemplo la alta relevancia del teorema en
+cuestión para la ciencia en todas sus ramas, puesto que tiene
+vinculación íntima con la comprensión de la probabilidad de aspectos
+causales dados los efectos observados.</p>
+</div>
+<div id="conclucion" class="section level1">
+<h1>conclucion</h1>
+<p>La probabilidad es una medida fundamental para cuantificar la
+posibilidad de que un evento ocurra, permitiendo tomar decisiones
+informadas ante la incertidumbre y realizar predicciones. Su estudio es
+clave para analizar fenómenos aleatorios, tanto en la vida cotidiana
+como en campos científicos y técnicos como la física cuántica o el
+análisis de datos, donde se utiliza para comprender y pronosticar
+tendencias y comportamientos. ,</p>
 </div>
 </div>
 
